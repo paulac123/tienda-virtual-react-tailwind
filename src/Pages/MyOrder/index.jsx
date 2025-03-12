@@ -4,7 +4,7 @@ import{ ChevronLeftIcon } from '@heroicons/react/24/solid'
 
 import { ShoppingCartContext } from "../../Context";
 import OrderCard from "../../Components/OrderCards";
-import Layout from "../../components/Layout";
+import Layout from "../../Components/Layout";
 
 function MyOrder() {
   const context = useContext(ShoppingCartContext);
